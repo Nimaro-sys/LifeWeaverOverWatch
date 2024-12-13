@@ -2,12 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: antiquewhite;
+}
+
 @keyframes scaleUp {
     0% {
         transform: scale(1);
     }
     100% {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
@@ -32,4 +36,88 @@ header img{
 
 header nav a{
     margin-left: 50px;
+}
+
+/*/Biographie/*/
+
+.Biographie{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 66%;
+    text-align: left;
+}
+
+.Biographie img {
+    flex: 0 0 33%;
+    max-width: 100%;
+    height: auto;
+}
+
+.hautFait-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+  
+.hautFait {
+    background-color: palevioletred;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; 
+    height: 50px; 
+}
+
+.hautFait:hover{
+    background-color: rgb(204, 97, 133);
+    cursor: pointer;
+}
+  
+/*/Oeuvres/*/
+
+.Oeuvresbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+  
+.Oeuvresbox {
+    background-color: rgb(185, 185, 185);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; 
+    height: 50px; 
+}
+
+.Oeuvresbox:hover{
+    background-color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+/*/Gallerie/*/
+
+.Galleryline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.Galleryemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Galleryemenu img {
+    height: 300px;
+    width: 300px;
 }
