@@ -1,3 +1,5 @@
+/* Global */
+
 html {
     scroll-behavior: smooth;
 }
@@ -20,7 +22,7 @@ img:hover {
     cursor: pointer;
 }
 
-/*/ Header /*/
+/* Header */
 
 .header {
     display: flex;
@@ -42,13 +44,17 @@ img:hover {
     margin-left: 50px;
 }
 
-/*/ Biographie /*/
+/* Biographie */
 
-.biographie__Main {
+.biographie {
     display: flex;
     justify-content: center;
-    flex: 0 0 66%;
     text-align: left;
+    gap: 20px;
+}
+
+.biographie__content {
+    flex: 0 0 66%;
 }
 
 .biographie__image {
@@ -57,12 +63,11 @@ img:hover {
     height: auto;
 }
 
-.biographie__highlight-container {
+.biographie__highlights {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
-    gap: 20px; 
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -71,8 +76,8 @@ img:hover {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    width: 200px; 
-    height: 50px; 
+    width: 200px;
+    height: 50px;
 }
 
 .biographie__highlight:hover {
@@ -80,13 +85,13 @@ img:hover {
     cursor: pointer;
 }
 
-/*/ Oeuvres /*/
+/* Oeuvres */
 
-.oeuvres__box-container {
+.oeuvres__boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; 
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -95,8 +100,8 @@ img:hover {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    width: 200px; 
-    height: 50px; 
+    width: 200px;
+    height: 50px;
 }
 
 .oeuvres__box:hover {
@@ -104,14 +109,19 @@ img:hover {
     cursor: pointer;
 }
 
-/*/ Galerie /*/
+/* Galerie */
 
-.galerie__line {
+.galerie__rows {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.galerie__row {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-bottom: 15px;
 }
 
 .galerie__item {
@@ -125,4 +135,68 @@ img:hover {
 .galerie__image {
     height: 300px;
     width: 300px;
+}
+
+/* Citations */
+
+.citations__quotes {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.citations__quote {
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+/* Secret */
+
+/* Contact */
+
+.contact__middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color:palevioletred;
+}
+
+.contact__label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact__input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+.contact__button {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact__button:hover {
+    background-color: rgb(146, 145, 145);
 }
