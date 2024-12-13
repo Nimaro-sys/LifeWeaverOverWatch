@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+img:hover {
+    animation: scaleUp 0.3s ease forwards;
+    cursor: pointer;
+}
+
+/*/Header/*/
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header img{
+    margin-bottom: 25px;
+}
+
+header nav a{
+    margin-left: 50px;
+}
