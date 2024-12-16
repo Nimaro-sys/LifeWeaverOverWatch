@@ -6,7 +6,6 @@ html {
 
 body {
     background-color: antiquewhite;
-    max-width: 100%;
 }
 
 @keyframes scaleUp {
@@ -29,6 +28,7 @@ img:hover {
 }
 
 /* Header */
+
 .header {
     display: flex;
     align-items: center;
@@ -50,6 +50,7 @@ img:hover {
 }
 
 /* Biographie */
+
 .bio {
     display: flex;
     justify-content: center;
@@ -64,6 +65,7 @@ img:hover {
 .bio__image {
     flex: 0 0 33%;
     max-width: 100%;
+    height: auto;    
     box-shadow: 1px 1px 10px black;
 }
 
@@ -88,7 +90,7 @@ img:hover {
     background-color: palevioletred;
     border-radius: 5px;
     padding: 10px;
-    text-align: center;
+    text-align: center;    box-shadow: 1px 1px 10px black;
     width: 200px;
     height: 50px;
 }
@@ -115,6 +117,7 @@ img:hover {
     padding: 10px;
     text-align: center;
     width: 200px;
+    box-shadow: 1px 1px 10px black;
     height: 50px;
 }
 
@@ -181,7 +184,7 @@ img:hover {
     background-color: palevioletred;
     padding: 15px;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    box-shadow: 1px 1px 10px black;
 }
 
 .secret__button:hover {
@@ -323,8 +326,8 @@ footer a{
     }
     
     .gallery__image {
-        height: 200px;
-        width: 200px;
+        height: 220px;
+        width: 220px;
     }
 
     /* Citations */
@@ -360,7 +363,6 @@ footer a{
        align-items: center;
        justify-content: center;
        text-align: center;
-       margin-bottom: 5px;
     }
 
     .footer__content{
