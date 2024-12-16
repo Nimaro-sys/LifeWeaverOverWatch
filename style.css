@@ -1,5 +1,4 @@
 /* Global */
-
 html {
     scroll-behavior: smooth;
 }
@@ -18,7 +17,7 @@ body {
     }
 }
 
-img{
+img {
     border-radius: 5px;
 }
 
@@ -28,7 +27,6 @@ img:hover {
 }
 
 /* Header */
-
 .header {
     display: flex;
     align-items: center;
@@ -50,25 +48,31 @@ img:hover {
 }
 
 /* Biographie */
-
-.biographie {
+.bio {
     display: flex;
     justify-content: center;
     text-align: left;
     gap: 20px;
 }
 
-.biographie__content {
+.bio__content {
     flex: 0 0 66%;
 }
 
-.biographie__image {
+.bio__image {
     flex: 0 0 33%;
     max-width: 100%;
     height: auto;
 }
 
-.biographie__highlights {
+.bio__line{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bio__highlights {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -76,7 +80,7 @@ img:hover {
     margin-top: 20px;
 }
 
-.biographie__highlight {
+.bio__highlight {
     background-color: palevioletred;
     border-radius: 5px;
     padding: 10px;
@@ -85,15 +89,14 @@ img:hover {
     height: 50px;
 }
 
-.biographie__highlight:hover {
+.bio__highlight:hover {
     background-color: rgb(204, 97, 133);
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 /* Oeuvres */
-
-.oeuvres__boxes {
+.oeuvres__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,7 +104,7 @@ img:hover {
     margin-top: 20px;
 }
 
-.oeuvres__box {
+.oeuvres__item {
     background-color: rgb(185, 185, 185);
     border-radius: 5px;
     padding: 10px;
@@ -110,28 +113,27 @@ img:hover {
     height: 50px;
 }
 
-.oeuvres__box:hover {
+.oeuvres__item:hover {
     background-color: rgb(158, 158, 158);
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 /* Galerie */
-
-.galerie__rows {
+.gallery__rows {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.galerie__row {
+.gallery__row {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
 
-.galerie__item {
+.gallery__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,14 +141,13 @@ img:hover {
     gap: 15px;
 }
 
-.galerie__image {
+.gallery__image {
     height: 300px;
     width: 300px;
 }
 
 /* Citations */
-
-.citations__quotes {
+.citations__list {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -154,34 +155,33 @@ img:hover {
     align-items: center;
 }
 
-.citations__quote {
+.citations__item {
     font-size: xx-large;
     font-style: oblique;
     font-family: fantasy;
 }
 
 /* Secret */
-
-.secret__button__place{
+.secret__button-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.secret__button{
+.secret__button {
     background-color: palevioletred;
     padding: 15px;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
-.secret__button:hover{
+.secret__button:hover {
     background-color: rgb(204, 97, 133);
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 /* Contact */
-
-.contact__middle {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,7 +196,7 @@ img:hover {
     padding: 20px;
     border: 2px solid #000;
     border-radius: 8px;
-    background-color:palevioletred;
+    background-color: palevioletred;
     margin-bottom: 20px;
 }
 
@@ -212,7 +212,6 @@ img:hover {
     border: 1px solid #ccc;
 }
 
-
 .contact__button {
     padding: 10px;
     background-color: gray;
@@ -223,15 +222,16 @@ img:hover {
 }
 
 .contact__button:hover {
-    background-color: rgb(146, 145, 145);
+    background-color: rgb(123, 123, 123);
     transition: background-color 0.3s;
 }
 
-footer{
+/* Footer */
+.footer {
     background-color: gray;
 }
 
-.footer__content{
+.footer__content {
     padding-top: 50px;
     display: flex;
     justify-content: space-around;
