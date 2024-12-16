@@ -68,15 +68,17 @@ img:hover {
 
 .bio__line{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
-    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .bio__highlights {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     gap: 20px;
     margin-top: 20px;
 }
