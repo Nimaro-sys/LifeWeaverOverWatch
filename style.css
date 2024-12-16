@@ -6,6 +6,7 @@ html {
 
 body {
     background-color: antiquewhite;
+    max-width: 100%;
 }
 
 @keyframes scaleUp {
@@ -63,7 +64,7 @@ img:hover {
 .bio__image {
     flex: 0 0 33%;
     max-width: 100%;
-    height: auto;
+    box-shadow: 1px 1px 10px black;
 }
 
 .bio__line{
@@ -150,6 +151,7 @@ img:hover {
 .gallery__image {
     height: 300px;
     width: 300px;
+    box-shadow: 1px 1px 10px black;
 }
 
 /* Citations */
@@ -251,7 +253,6 @@ img:hover {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    align-items: end;
     color: aliceblue;
     padding-bottom: 25px;
 }
@@ -273,7 +274,6 @@ footer a{
     
     .header__nav {
         flex-direction: column;
-        margin-top: 20px;
     }
     
     .header__nav-link {
@@ -289,13 +289,9 @@ footer a{
         align-items: center;
     }
     
-    .bio__content {
-        flex: 0 0 100%;
-    }
-    
     .bio__image {
-        flex: 0 0 100%;
-        max-width: 100%;
+        height: 200px;
+        width: 220px;
     }
 
     /* Oeuvres */
@@ -311,7 +307,7 @@ footer a{
     }
 
     .oeuvres__item {
-        width: 100%;
+        width: 60%;
         margin-bottom: 10px;
     }
 
@@ -353,15 +349,22 @@ footer a{
     }
 
     .contact__form {
-        width: 100%;
+        width: 90%;
         padding: 15px;
     }
 
     /* footer */
 
+    footer{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       margin-bottom: 5px;
+    }
+
     .footer__content{
         flex-direction: column;
-        text-align: center;
         align-content: center;
     }
 }
