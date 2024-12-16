@@ -37,6 +37,15 @@ img:hover {
     text-align: center;
 }
 
+header a{
+    color: rgb(0, 0, 193);
+}
+
+header a:hover{
+    color: rgb(11, 11, 146);
+}
+
+
 .header__image {
     margin-bottom: 25px;
 }
@@ -262,6 +271,10 @@ img:hover {
 
 footer a{
     color: white;
+}
+
+footer a:hover{
+    color: rgb(225, 222, 222);
 }
 
 /* Breakpoint pour mobile*/
