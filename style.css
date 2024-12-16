@@ -8,6 +8,7 @@ body {
     background-color: rgb(1, 95, 1);
     background-image: url(./imagesLifeWeaver/BackLifeV2.jpg);
     color: white;
+    margin: 0;
 }
 
 @keyframes scaleUp {
