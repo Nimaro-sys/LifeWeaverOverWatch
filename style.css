@@ -14,7 +14,12 @@ body {
     }
     100% {
         transform: scale(1.05);
+        transform: rotate(5deg);
     }
+}
+
+img{
+    border-radius: 5px;
 }
 
 img:hover {
@@ -83,6 +88,7 @@ img:hover {
 .biographie__highlight:hover {
     background-color: rgb(204, 97, 133);
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 /* Oeuvres */
@@ -107,6 +113,7 @@ img:hover {
 .oeuvres__box:hover {
     background-color: rgb(158, 158, 158);
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 /* Galerie */
@@ -155,6 +162,23 @@ img:hover {
 
 /* Secret */
 
+.secret__button__place{
+    display: flex;
+    justify-content: center;
+}
+
+.secret__button{
+    background-color: palevioletred;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.secret__button:hover{
+    background-color: rgb(204, 97, 133);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
 /* Contact */
 
 .contact__middle {
@@ -173,6 +197,7 @@ img:hover {
     border: 2px solid #000;
     border-radius: 8px;
     background-color:palevioletred;
+    margin-bottom: 20px;
 }
 
 .contact__label {
@@ -199,4 +224,19 @@ img:hover {
 
 .contact__button:hover {
     background-color: rgb(146, 145, 145);
+    transition: background-color 0.3s;
+}
+
+footer{
+    background-color: gray;
+}
+
+.footer__content{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: end;
+    color: aliceblue;
+    padding-bottom: 25px;
 }
