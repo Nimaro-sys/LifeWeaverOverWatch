@@ -1,4 +1,5 @@
 /* Global */
+
 html {
     scroll-behavior: smooth;
 }
@@ -96,6 +97,7 @@ img:hover {
 }
 
 /* Oeuvres */
+
 .oeuvres__list {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +122,7 @@ img:hover {
 }
 
 /* Galerie */
+
 .gallery__rows {
     display: flex;
     flex-direction: column;
@@ -148,6 +151,7 @@ img:hover {
 }
 
 /* Citations */
+
 .citations__list {
     display: flex;
     flex-direction: column;
@@ -163,6 +167,7 @@ img:hover {
 }
 
 /* Secret */
+
 .secret__button-wrapper {
     display: flex;
     justify-content: center;
@@ -182,6 +187,7 @@ img:hover {
 }
 
 /* Contact */
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -228,6 +234,7 @@ img:hover {
 }
 
 /* Footer */
+
 .footer {
     background-color: gray;
 }
@@ -240,4 +247,114 @@ img:hover {
     align-items: end;
     color: aliceblue;
     padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+}
+
+/* Breakpoint pour mobile*/
+
+@media (max-width: 768px) {
+    
+    /* Header */
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header__nav {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .header__nav-link {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* Biographie */
+
+    .bio {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .bio__content {
+        flex: 0 0 100%;
+    }
+    
+    .bio__image {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Oeuvres */
+
+    .oeuvres{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .oeuvres__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oeuvres__item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Galerie */
+
+    .gallery{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gallery__rows {
+        flex-direction: column;
+    }
+    
+    .gallery__image {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* Citations */
+
+    .citations{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Secret */
+
+    .secret{
+        flex-direction: column;
+        text-align: center;
+    } 
+
+    /* Contact */
+
+    .contact{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact__form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* footer */
+
+    .footer__content{
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+    }
 }
