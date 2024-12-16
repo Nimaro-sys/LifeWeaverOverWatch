@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    background-color: antiquewhite;
+    background-image: url(./imagesLifeWeaver/BackLifeV2.jpg);
+    color: white;
 }
 
 @keyframes scaleUp {
@@ -99,7 +100,9 @@ header a:hover{
     background-color: palevioletred;
     border-radius: 5px;
     padding: 10px;
-    text-align: center;    box-shadow: 1px 1px 10px black;
+    text-align: center;    
+    color: #000;
+    box-shadow: 1px 1px 10px black;
     width: 200px;
     height: 50px;
 }
@@ -126,6 +129,7 @@ header a:hover{
     padding: 10px;
     text-align: center;
     width: 200px;
+    color: #000;
     box-shadow: 1px 1px 10px black;
     height: 50px;
 }
