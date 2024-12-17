@@ -16,7 +16,7 @@ body {
 
 section {
     border: 1px solid #000;
-    background: linear-gradient(135deg, rgb(204, 0, 255), rgb(14, 90, 0));
+    background: linear-gradient(135deg, rgb(89, 57, 34), rgb(68, 100, 20));
     border-radius: 10px;
     width: 1200px;
     max-width: 1200px;
@@ -40,11 +40,6 @@ img {
     border-radius: 5px;
 }
 
-img:hover {
-    animation: scaleUp 0.3s ease forwards;
-    cursor: pointer;
-}
-
 /* Header */
 
 .header {
@@ -53,6 +48,11 @@ img:hover {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+}
+
+header img:hover{
+    animation: scaleUp 0.3s ease forwards;
+    cursor: pointer;
 }
 
 header a{
@@ -94,6 +94,11 @@ header a:hover{
     max-width: 100%;
     height: auto;    
     box-shadow: 1px 1px 10px black;
+}
+
+.bio__image:hover {
+    animation: scaleUp 0.3s ease forwards;
+    cursor: pointer;
 }
 
 .bio__line{
@@ -185,6 +190,11 @@ header a:hover{
     height: 300px;
     width: 300px;
     box-shadow: 1px 1px 10px black;
+}
+
+.gallery__image:hover{
+    animation: scaleUp 0.3s ease forwards;
+    cursor: pointer;
 }
 
 /* Citations */
