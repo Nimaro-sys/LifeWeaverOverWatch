@@ -12,6 +12,19 @@ body {
     margin: 0;
 }
 
+section {
+    border: 1px solid #000;
+    background-color: rgb(111, 98, 80);
+    border-radius: 10px;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px ;
+}
+
+
 @keyframes scaleUp {
     0% {
         transform: scale(1);
