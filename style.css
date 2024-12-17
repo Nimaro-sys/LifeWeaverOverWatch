@@ -24,11 +24,10 @@ section {
 
 @keyframes scaleUp {
     0% {
-        transform: scale(1);
+        transform: scale(1) rotate(0deg);
     }
     100% {
-        transform: scale(1.05);
-        transform: rotate(5deg);
+        transform: scale(1.25) rotate(5deg);
     }
 }
 
