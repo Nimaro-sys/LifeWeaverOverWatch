@@ -33,6 +33,69 @@ function VerifInput() {
     }
         alert("Message envoyé avec succès !");
     };
-    
-/// A suivre..
 
+/// image en grand
+
+document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll("img");
+
+    const overlay = document.createElement("div");
+    const overlayImage = document.createElement("img");
+    const closeOverlay = document.createElement("span");
+
+    Object.assign(overlay.style, {
+        display: "none",
+        position: "fixed",
+        top: "0",
+        left: "0",
+        width: "100%",
+        height: "100%",
+        background: "black",
+        justifyContent: "center",
+        alignItems: "center",
+        zIndex: "1000"
+    });
+
+    Object.assign(overlayImage.style, {
+        maxWidth: "90%",
+        maxHeight: "90%",
+        borderRadius: "10px",
+        boxShadow: "0 0 15px white"
+    });
+
+    Object.assign(closeOverlay.style, {
+        position: "absolute",
+        top: "20px",
+        right: "30px",
+        color: "white",
+        fontSize: "40px",
+        fontWeight: "bold",
+        cursor: "pointer",
+        userSelect: "none"
+    });
+
+    closeOverlay.textContent = "×";
+
+    overlay.appendChild(overlayImage);
+    overlay.appendChild(closeOverlay);
+    document.body.appendChild(overlay);
+
+    images.forEach(image => {
+        image.addEventListener("click", () => {
+            overlayImage.src = image.src;
+            overlay.style.display = "flex";
+        });
+    });
+
+    closeOverlay.addEventListener("click", () => {
+        overlay.style.display = "none";
+    });
+
+    overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) {
+            overlay.style.display = "none";
+        }
+    });
+});
+
+    
