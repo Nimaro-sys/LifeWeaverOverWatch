@@ -50,10 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
         left: "0",
         width: "100%",
         height: "100%",
-        background: "black",
+        background: "rgba(0, 0, 0, 0.5)",
         justifyContent: "center",
         alignItems: "center",
-        zIndex: "1000"
     });
 
     Object.assign(overlayImage.style, {
@@ -97,5 +96,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-    
