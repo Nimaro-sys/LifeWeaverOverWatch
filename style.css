@@ -234,6 +234,10 @@ header a:hover{
     transition: background-color 0.3s;
 }
 
+.secret__text{
+    text-align: center;
+}
+
 /* Contact */
 
 .contact {
