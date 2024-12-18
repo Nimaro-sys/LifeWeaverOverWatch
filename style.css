@@ -5,6 +5,7 @@ html {
 body {
     background-color: rgb(1, 95, 1);
     background-image: url(./imagesLifeWeaver/BackLifeV2.jpg);
+    background-size: contain;
     color: white;
     overflow-x: hidden;
     margin: 0;
@@ -12,7 +13,6 @@ body {
 
 section {
     border: 1px solid #000;
-    background: linear-gradient(135deg, rgb(142, 75, 24), rgb(68, 100, 20));
     border-radius: 10px;
     width: 1200px;
     max-width: 1200px;
