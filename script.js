@@ -96,16 +96,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-/// naissance de Vitale
-
-document.addEventListener("DOMContentLoaded", () => {
-    const paragraph = document.querySelector(".secret__paragraph");
-    const targetDate = new Date("2033-07-12");
-    const currentDate = new Date();
-    const timeDifference = targetDate - currentDate;
-    const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
-
-    paragraph.innerHTML = 
-    "Dans l'univers futuriste d'Overwatch, le personnage mythique Vitale sera né dans " + daysDifference + " jours. Préparez-vous à cet événement légendaire le 12 juillet 2033 !";
-});
