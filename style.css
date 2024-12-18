@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-color: darkblue;
-    background-image: url(./imagesLifeWeaver/BackLife.png);
+    background-color: green;
+    background-image: url(./imagesLifeWeaver/BackLifeV2.jpg);
     background-size: contain;
     background-attachment: fixed;
     color: white;
@@ -14,7 +14,6 @@ body {
 
 section {
     border: 1px solid #000;
-    background: linear-gradient(rgb(9, 3, 37), rgb(3, 3, 95));
     border-radius: 10px;
     width: 1200px;
     max-width: 1200px;
@@ -317,7 +316,7 @@ footer a:hover{
     
     section {
         border: 1px solid #000;
-        background: linear-gradient(135deg, rgb(142, 75, 24), rgb(68, 100, 20));        border-radius: 10px;
+        border-radius: 10px;
         max-width: 700px;
         padding: 10px;
         margin: auto;
