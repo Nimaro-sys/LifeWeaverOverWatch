@@ -5,7 +5,7 @@ html {
 body {
     background-color: green;
     background-image: url(./imagesLifeWeaver/BackLifeV2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     color: whitesmoke;
     overflow-x: hidden;
