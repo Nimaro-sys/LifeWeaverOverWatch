@@ -13,8 +13,6 @@ body {
 }
 
 section {
-    border: 1px solid #000;
-    border-radius: 10px;
     width: 1200px;
     max-width: 1200px;
     padding: 10px;
@@ -319,8 +317,6 @@ footer a:hover{
 @media (max-width: 768px) {
     
     section {
-        border: 1px solid #000;
-        border-radius: 10px;
         max-width: 700px;
         padding: 10px;
         margin: auto;
