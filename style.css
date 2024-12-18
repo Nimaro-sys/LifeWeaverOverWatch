@@ -7,7 +7,7 @@ body {
     background-image: url(./imagesLifeWeaver/BackLifeV2.jpg);
     background-size: contain;
     background-attachment: fixed;
-    color: white;
+    color: whitesmoke;
     overflow-x: hidden;
     margin: 0;
 }
@@ -58,11 +58,11 @@ header img:hover{
 }
 
 header a{
-    color: white;
+    color: rgb(40, 40, 149);
 }
 
 header a:hover{
-    color: lightgray;
+    color: rgb(31, 31, 192);
 }
 
 .header__image {
@@ -120,7 +120,7 @@ header a:hover{
 }
 
 .bio__highlight {
-    background-color: purple;
+    background-color: palevioletred;
     border-radius: 5px;
     padding: 10px;
     text-align: center;    
@@ -131,7 +131,7 @@ header a:hover{
 }
 
 .bio__highlight:hover {
-    background-color: rgb(144, 5, 144);
+    background-color: rgb(198, 96, 130);
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -222,14 +222,14 @@ header a:hover{
 }
 
 .secret__button {
-    background-color: purple;
+    background-color: palevioletred;
     padding: 15px;
     border-radius: 15px;
     margin-bottom: 10px;    box-shadow: 1px 1px 10px black;
 }
 
 .secret__button:hover {
-    background-color: rgb(144, 5, 144);
+    background-color: rgb(198, 96, 130);
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -256,7 +256,7 @@ header a:hover{
     padding: 20px;
     border: 2px solid #000;
     border-radius: 8px;
-    background-color: purple;
+    background-color: palevioletred;
     margin-bottom: 20px;
 }
 
