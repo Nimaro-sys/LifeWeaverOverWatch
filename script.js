@@ -56,8 +56,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     Object.assign(overlayImage.style, {
-        maxWidth: "90%",
-        maxHeight: "90%",
+        maxWidth: "500px",
+        maxHeight: "350px",
         borderRadius: "10px",
         boxShadow: "0 0 15px white"
     });

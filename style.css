@@ -57,10 +57,15 @@ header img:hover{
 
 header a{
     color: rgb(40, 40, 149);
+    padding: 5px;
+    background-color: antiquewhite;
+    border: #000 solid 1px;
+    border-radius: 5px;
 }
 
 header a:hover{
     color: rgb(31, 31, 192);
+    background-color: rgb(234, 214, 188);
 }
 
 .header__image {
